@@ -1,4 +1,5 @@
 #pragma once
+#include "Nova/event/AppEvent.h"
 
 namespace Nova
 {
@@ -9,9 +10,11 @@ namespace Nova
 		~App();
 		void Run();
 		void OnClose();
-		void OnEvent();
+		void OnEvent(Event& e);
 		void OnUpdate();
 		inline static App* Get() { return s_Instance; }
+	private:
+		bool OnWindowCloseEvent(WindowCloseEvent& event);
 	private:
 		static App* s_Instance;
 		bool m_running = true;

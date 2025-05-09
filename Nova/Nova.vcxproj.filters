@@ -10,6 +10,9 @@
     <Filter Include="src\Nova\core">
       <UniqueIdentifier>{C8BE7381-347F-EFB7-FDB9-383569393494}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Nova\event">
+      <UniqueIdentifier>{C16913B0-AD37-07B6-96CB-77DC8238E31A}</UniqueIdentifier>
+    </Filter>
     <Filter Include="vendor">
       <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
     </Filter>
@@ -47,6 +50,18 @@
     </ClInclude>
     <ClInclude Include="src\Nova\core\Log.h">
       <Filter>src\Nova\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\event\AppEvent.h">
+      <Filter>src\Nova\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\event\Event.h">
+      <Filter>src\Nova\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\event\KeyboardEvent.h">
+      <Filter>src\Nova\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\event\MouseEvent.h">
+      <Filter>src\Nova\event</Filter>
     </ClInclude>
     <ClInclude Include="src\nvpch.h">
       <Filter>src</Filter>
