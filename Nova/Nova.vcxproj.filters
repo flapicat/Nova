@@ -4,6 +4,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Nova">
+      <UniqueIdentifier>{50DC22CF-3CA9-7DDA-65C2-6B8251EEB268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Nova\core">
+      <UniqueIdentifier>{C8BE7381-347F-EFB7-FDB9-383569393494}</UniqueIdentifier>
+    </Filter>
     <Filter Include="vendor">
       <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
     </Filter>
@@ -27,6 +33,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Nova.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\core\App.h">
+      <Filter>src\Nova\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\core\Core.h">
+      <Filter>src\Nova\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\core\EntryPoint.h">
+      <Filter>src\Nova\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Nova\core\Log.h">
+      <Filter>src\Nova\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nvpch.h">
+      <Filter>src</Filter>
+    </ClInclude>
     <ClInclude Include="vendor\glm\glm\common.hpp">
       <Filter>vendor\glm\glm</Filter>
     </ClInclude>
@@ -1283,7 +1307,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="src\Nova\core\App.cpp">
+      <Filter>src\Nova\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nova\core\Log.cpp">
+      <Filter>src\Nova\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nvpch.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

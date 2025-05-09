@@ -35,8 +35,8 @@ project "Nova"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-	--pchheader "nvpch.h"
-	--pchsource "Nova/src/nvpch.cpp"
+	pchheader "nvpch.h"
+	pchsource "Nova/src/nvpch.cpp"
 
 	files
 	{
