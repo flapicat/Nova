@@ -1,0 +1,12 @@
+[submodule "Nova/vendor/glfw"]
+	path = Nova/vendor/glfw
+	url = https://github.com/TheCherno/glfw.git
+[submodule "Nova/vendor/imgui"]
+	path = Nova/vendor/imgui
+	url = https://github.com/TheCherno/imgui.git
+[submodule "Nova/vendor/spdlog"]
+	path = Nova/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "Nova/vendor/glm"]
+	path = Nova/vendor/glm
+	url = https://github.com/g-truc/glm.git
