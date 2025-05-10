@@ -54,6 +54,7 @@ namespace Nova
 
 	class KeyTypedEvent : public KeyEvent
 	{
+	public:
 		KeyTypedEvent(int keycode)
 			: KeyEvent(keycode) {
 		}

@@ -13,6 +13,12 @@
     <Filter Include="src\Nova\event">
       <UniqueIdentifier>{C16913B0-AD37-07B6-96CB-77DC8238E31A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Platform">
+      <UniqueIdentifier>{21CA02E5-0D2D-9289-B6B2-CA3FA2F45D0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform\Windows">
+      <UniqueIdentifier>{5B054582-4794-CE4B-F0B2-E246DC20DFF1}</UniqueIdentifier>
+    </Filter>
     <Filter Include="vendor">
       <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
     </Filter>
@@ -51,6 +57,9 @@
     <ClInclude Include="src\Nova\core\Log.h">
       <Filter>src\Nova\core</Filter>
     </ClInclude>
+    <ClInclude Include="src\Nova\core\Window.h">
+      <Filter>src\Nova\core</Filter>
+    </ClInclude>
     <ClInclude Include="src\Nova\event\AppEvent.h">
       <Filter>src\Nova\event</Filter>
     </ClInclude>
@@ -62,6 +71,9 @@
     </ClInclude>
     <ClInclude Include="src\Nova\event\MouseEvent.h">
       <Filter>src\Nova\event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>src\Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\nvpch.h">
       <Filter>src</Filter>
@@ -1320,6 +1332,10 @@
     <ClInclude Include="vendor\glm\glm\vector_relational.hpp">
       <Filter>vendor\glm\glm</Filter>
     </ClInclude>
+    <ClInclude Include="src\Nova\core\MouseButtonCodes.h" />
+    <ClInclude Include="src\Nova\core\KeyCodes.h" />
+    <ClInclude Include="src\Nova\core\Layer.h" />
+    <ClInclude Include="src\Nova\core\LayerStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Nova\core\App.cpp">
@@ -1328,8 +1344,13 @@
     <ClCompile Include="src\Nova\core\Log.cpp">
       <Filter>src\Nova\core</Filter>
     </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
     <ClCompile Include="src\nvpch.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Nova\core\Layer.cpp" />
+    <ClCompile Include="src\Nova\core\LayerStack.cpp" />
   </ItemGroup>
 </Project>

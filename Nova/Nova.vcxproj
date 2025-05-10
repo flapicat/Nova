@@ -150,11 +150,17 @@
     <ClInclude Include="src\Nova\core\App.h" />
     <ClInclude Include="src\Nova\core\Core.h" />
     <ClInclude Include="src\Nova\core\EntryPoint.h" />
+    <ClInclude Include="src\Nova\core\KeyCodes.h" />
+    <ClInclude Include="src\Nova\core\Layer.h" />
+    <ClInclude Include="src\Nova\core\LayerStack.h" />
     <ClInclude Include="src\Nova\core\Log.h" />
+    <ClInclude Include="src\Nova\core\MouseButtonCodes.h" />
+    <ClInclude Include="src\Nova\core\Window.h" />
     <ClInclude Include="src\Nova\event\AppEvent.h" />
     <ClInclude Include="src\Nova\event\Event.h" />
     <ClInclude Include="src\Nova\event\KeyboardEvent.h" />
     <ClInclude Include="src\Nova\event\MouseEvent.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\nvpch.h" />
     <ClInclude Include="vendor\glm\glm\common.hpp" />
     <ClInclude Include="vendor\glm\glm\detail\_features.hpp" />
@@ -577,7 +583,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Nova\core\App.cpp" />
+    <ClCompile Include="src\Nova\core\Layer.cpp" />
+    <ClCompile Include="src\Nova\core\LayerStack.cpp" />
     <ClCompile Include="src\Nova\core\Log.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\nvpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
